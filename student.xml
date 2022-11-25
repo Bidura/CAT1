@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<College xsi:noNamespaceschemaLocation="D:\mcalab48\Desktop\Bidura\student.xsd"  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Student id="1">
+        
+        <Stu-name>Bidura Sarkar</Stu-name>
+        <Stu-Course>MCA</Stu-Course>
+        <Stu-sem>2</Stu-sem>
+        <Stu-Sub1>70</Stu-Sub1>
+        <Stu-Sub2>80</Stu-Sub2>
+        <Stu-Sub3>90</Stu-Sub3>
+        <Stu-Total>240.0</Stu-Total>
+        <Stu-Avg>80.0</Stu-Avg>
+    </Student>
+    <Student id="2">
+        
+        <Stu-name>Madhura Sarkar</Stu-name>
+        <Stu-Course>Hotel Management</Stu-Course>
+        <Stu-sem>6</Stu-sem>
+        <Stu-Sub1>90</Stu-Sub1>
+        <Stu-Sub2>90</Stu-Sub2>
+        <Stu-Sub3>90</Stu-Sub3>
+        <Stu-Total>270.0</Stu-Total>
+        <Stu-Avg>90.0</Stu-Avg>
+    </Student> 
+    <Student id="3">
+        
+        <Stu-name>Richie</Stu-name>
+        <Stu-Course>Architecture</Stu-Course>
+        <Stu-sem>6</Stu-sem>
+        <Stu-Sub1>90</Stu-Sub1>
+        <Stu-Sub2>90</Stu-Sub2>
+        <Stu-Sub3>75</Stu-Sub3>
+        <Stu-Total>255.0</Stu-Total>
+        <Stu-Avg>85.0</Stu-Avg>
+    </Student> 
+    <Student id="4">
+        
+        <Stu-name>David Sarkar</Stu-name>
+        <Stu-Course>Hotel Management</Stu-Course>
+        <Stu-sem>6</Stu-sem>
+        <Stu-Sub1>90</Stu-Sub1>
+        <Stu-Sub2>90</Stu-Sub2>
+        <Stu-Sub3>90</Stu-Sub3>
+        <Stu-Total>270.0</Stu-Total>
+        <Stu-Avg>90.0</Stu-Avg>
+    </Student>
+</College>

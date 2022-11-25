@@ -1,0 +1,32 @@
+body
+{ 
+    background-image:linear-gradient(skyblue,grey);
+    font-size:medium;
+    font-weight:bold;
+    font-family:Georgia;
+}
+fieldset
+{ 
+    text-align:center;
+    border:7px double white;
+    width:20%;
+    height:50%;
+}
+form{
+    float:right;
+    text-align:"center";
+    
+}
+h2
+{font-size:large;
+    font-weight:bold;
+    font-family:Georgia;
+    color:blue;
+    border:5px double white;
+    text-align:center;
+}
+ 
+label
+{
+    float:left;
+}

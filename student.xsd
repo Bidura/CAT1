@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="College">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Student" minOccurs="0" maxOccurs="unbounded">
+             <xs:complexType>
+                 <xs:sequence>
+                     <xs:element name="Stu-name" type="xs:string"/>
+                     <xs:element name="Stu-Course" type="xs:string"/>
+                     <xs:element name="Stu-sem" type="xs:int"/>
+                     <xs:element name="Stu-Sub1">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:float">
+                        <xs:minInclusive value="0.0"/>
+                        <xs:maxInclusive value="100.0" />
+                        </xs:restriction>
+                    </xs:simpleType>
+                    
+                     </xs:element>
+
+                     <xs:element name="Stu-Sub2">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:float">
+                            <xs:minInclusive value="0.0"/>
+                            <xs:maxInclusive value="100.0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        
+                    </xs:element>
+
+                     <xs:element name="Stu-Sub3">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:float">
+                            <xs:minInclusive value="0.0"/>
+                            <xs:maxInclusive value="100.0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        
+                         </xs:element>
+                     <xs:element name="Stu-Total">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:float">
+                            <xs:minInclusive value="0.0"/>
+                            <xs:maxInclusive value="300.0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        
+                         </xs:element>
+                     <xs:element name="Stu-Avg">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:float">
+                            <xs:minInclusive value="0.0"/>
+                            <xs:maxInclusive value="100.0" />
+                            </xs:restriction>
+                        </xs:simpleType>
+                        
+                         </xs:element>
+                
+                 </xs:sequence>
+                 <xs:attribute name="id" type="xs:int" use="required"/>
+             </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+</xs:element>
+
+</xs:schema>

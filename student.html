@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Management System</title>
+    
+    <script>
+        function myfunc()
+        {
+            var canva=document.getElementById("canvas");
+            var cx=canva.getContext("2d");
+            cx.font="30px Tahoma";
+            cx.fillText="Please Register Student";
+        }
+    </script>
+      <link rel="stylesheet" type="text/css" href="student.css" />  
+   
+</head>
+<body>
+    <h2>Student Management System</h2>
+    <center>
+    <fieldset>
+        <legend>Registration form</legend>
+        <form>
+            <label>Name</label>
+        <input type="text" name="sname" id="sname" size="20" maxlength="30" />
+        <br/><br/>
+        <label>
+            Date of birth
+        </label>
+        <input type="date" name="dob" id="dob" />
+        <br/><br/>
+        <label>
+            Contact no:
+        </label>
+        <input type="tel" name="phno" id="phno" placeholder="+91-1234567890" />
+        <br/><br/>
+        <label>
+            Register number
+        </label>
+        <input type="number" max=2247267 min=2247201 name="regno">
+        <br/><br/>
+        <label>Stream Chosen: </label>
+        <input type="text" list="list1">
+        <datalist id="list1">
+            <option>Humanities</option>
+            <option>Commerce</option>
+            <option>Science</option>
+        </datalist>
+        <br/>
+        <br/>
+        <button id="click" name="click">Submit</button>
+        <button id="click1" name="click1">Reset</button>
+        </form>
+        
+    </fieldset>
+</center>
+    <br/>
+   
+
+<canvas onmouseover="myfunc()" id="canvas" width=400px height=100px>
+</canvas>
+</body>
+</html>
